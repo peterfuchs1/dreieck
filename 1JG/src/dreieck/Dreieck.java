@@ -13,9 +13,9 @@ public class Dreieck {
 		JOptionPane.showMessageDialog(null,"Der Umfang von a="+a+", b="+b+", c="+c+" betraegt: "  + umfang);
 	}
 	public static void einlesen(){
-		a=Double.parseDouble(JOptionPane.showInputDialog("Bitte eine Werte für a eingeben: ", 0));
-		b=Double.parseDouble(JOptionPane.showInputDialog("Bitte eine Werte für b eingeben: ", 0));
-		c=Double.parseDouble(JOptionPane.showInputDialog("Bitte eine Werte für c eingeben: ", 0));
+		a=Double.parseDouble(JOptionPane.showInputDialog("Bitte einen Wert für a eingeben: ", 0));
+		b=Double.parseDouble(JOptionPane.showInputDialog("Bitte einen Wert für b eingeben: ", 0));
+		c=Double.parseDouble(JOptionPane.showInputDialog("Bitte einen Wert für c eingeben: ", 0));
 	}
 	public static void verarbeitung(){
 		umfang=a+b+c;
